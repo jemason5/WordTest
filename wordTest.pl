@@ -69,9 +69,9 @@ for (sort keys  %seqHash)
 		print SequenceFile "$seq\n";
 		print WordFile "$word\n";
     }
-	else {
-		print "duplicate sequence: $seq " . $sw->getCount() . "\n";
-	}
+	# else {
+		# print "duplicate sequence: $seq " . $sw->getCount() . "\n";
+	# }
 }
 
 close WordFile;
